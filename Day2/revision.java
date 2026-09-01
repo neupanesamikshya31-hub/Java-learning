@@ -3,7 +3,7 @@
 //  that inherits from Student and overrides the display() method to display the student's information along with the message "Scholar Student".
 //   Finally, create objects of both classes in the main() method and demonstrate inheritance and method overriding.
 
-class Student{
+class Student{         
    private String name;
    private int rollNo;
    private  int marks;
@@ -18,13 +18,13 @@ public void info(){
     System.out.println("Marks: "+marks);
 }}
 
-class Scholar extends Student{
+class Scholar extends Student{             //child class
 
-    Scholar(String name, int rollNo, int marks){
+    Scholar(String name, int rollNo, int marks){     //child constructor
          super(name, rollNo, marks);
     }
     @Override
-    public void info(){
+    public void info(){    //override
         super.info();
     System.out.println("Scholar Student");
 
