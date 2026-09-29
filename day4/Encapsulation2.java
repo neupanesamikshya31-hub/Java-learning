@@ -43,6 +43,7 @@ public class Encapsulation2 {
         System.out.println("Employee information");
         e.display();
 System.out.println("");
+
         e.setSalary(1500000);
            System.out.println("After salary Update ");
         e.display();

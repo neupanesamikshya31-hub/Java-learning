@@ -1,3 +1,4 @@
+package day7;
 // Q. Write a Java program to create a Student class with name, rollNo, and marks. Use a parameterized constructor to initialize the data and 
 // create a method to display the student's details. Create three Student objects and display their details.
 

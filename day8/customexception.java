@@ -14,7 +14,7 @@ public class customexception {
             System.out.println("You can vote");
         } 
         catch (AgeLimitException e) {
-            System.out.println(e.getmessage());
+            System.out.println(e.getMessage());
         }
     }
 }
